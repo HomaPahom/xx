@@ -2031,4 +2031,37 @@ input{
         padding: 25px 50px;
         border-radius: 5px;
     }
+
+    .services__title{
+        margin-top: 91px;
+        margin-bottom: 43px;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 130%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #1A1A1A;
+    }
+
+
+    .marquee {
+        overflow: auto;
+        white-space: normal;
+        padding-bottom: 0;
+    }
+    
+    .marquee span {
+        display: block;
+        padding-left: 0;
+        animation: none;
+        transform: none;
+    }
+
+    .main__photo_btn{
+        position: absolute;
+        top: 90px;
+        left: 50%;
+    }
 }
