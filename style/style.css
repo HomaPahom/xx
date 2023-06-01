@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,24 +6,24 @@
     list-style: none;
 }
 
-.container{
+.container {
     max-width: 1320px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.header{
+.header {
     background: url(../img/bg.png) center center / cover;
     z-index: 1;
     position: relative;
 }
 
-.header_bim{
+.header_bim {
     background: url(../img/bim__header.png) center center / cover;
 }
 
-.bhurger{
+.bhurger {
     display: none;
     background: none;
     top: 20px;
@@ -33,19 +33,19 @@
     border: none;
 }
 
-.nav{
+.nav {
     padding: 40px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.link__header{
+.link__header {
     display: flex;
     gap: 40px;
 }
 
-.link__header__list a{
+.link__header__list a {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
@@ -56,31 +56,31 @@
 }
 
 
-.link__header__list a:hover{
+.link__header__list a:hover {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 130%;
-    text-decoration-line: underline;  
+    text-decoration-line: underline;
     color: #9166F0;
 }
 
-.header__content{
+.header__content {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
-.img__header__content{
+.img__header__content {
     top: 10px;
     left: 0;
     position: absolute;
 }
 
 
-.vk{
+.vk {
     position: absolute;
     transform: translate(30%, -40%);
     top: 50%;
@@ -88,22 +88,23 @@
     z-index: 3;
 }
 
-.yt{
+.yt {
     position: absolute;
     top: 50%;
     transform: translate(30%, -40%);
     right: 40px;
     z-index: 2;
-    
+
 
 }
-.tg{
+
+.tg {
     position: absolute;
     transform: translate(30%, -40%);
     right: 20px;
 }
 
-.header__info{
+.header__info {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,7 +114,7 @@
     gap: 50px;
 }
 
-.header__telephone{
+.header__telephone {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -122,7 +123,7 @@
     color: #FFFFFF;
 }
 
-.header__content__txt{
+.header__content__txt {
     margin-top: 161px;
     display: flex;
     flex-direction: column;
@@ -132,17 +133,17 @@
     margin-bottom: 215px;
 }
 
-.header__content__photo{
+.header__content__photo {
     position: relative;
     width: 100%;
 }
 
-.main__photo{
+.main__photo {
     z-index: -2;
 }
 
 
-.zastavka{
+.zastavka {
     position: absolute;
     top: 195px;
     left: 50%;
@@ -151,14 +152,14 @@
 
 }
 
-.play__btn__header{
+.play__btn__header {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.header__content_title{
+.header__content_title {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -168,7 +169,7 @@
     color: #FFFFFF;
 }
 
-.header__content_subtitle{
+.header__content_subtitle {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
@@ -179,38 +180,38 @@
     width: 100%;
 }
 
-.header__content_button{
+.header__content_button {
     display: flex;
     gap: 20px;
     position: relative;
 }
 
-.header__content__btn{
+.header__content__btn {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 130%;
     color: #9166F0;
-    padding: 23px  68px;
+    padding: 23px 68px;
     border: 1px solid #9166F0;
     border-radius: 5px;
     transition: .4s;
 }
 
-.header__content__btn:hover{
+.header__content__btn:hover {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 130%;
     color: #FFFFFF;
-    padding: 23px  68px;
+    padding: 23px 68px;
     background: linear-gradient(275.53deg, #210C51 8.77%, #9166F0 85.8%);
     border-radius: 5px;
 }
 
-.header__content__btn_gradient{
+.header__content__btn_gradient {
     position: absolute;
     background: #9166F0;
     opacity: 0.5;
@@ -226,24 +227,25 @@
     white-space: nowrap;
     padding-bottom: 30px;
 }
-  
+
 .marquee span {
     display: inline-block;
     padding-left: 100%;
-    animation: marquee 15s linear infinite;
+    animation: marquee 35s linear infinite;
 }
-  
+
 @keyframes marquee {
-0% {
-    transform: translateX(0);
-}
-100% {
-    transform: translateX(-100%);
-}
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 
-.services__title{
+.services__title {
     text-align: center;
     margin-top: 144px;
     font-family: 'Ubuntu';
@@ -256,7 +258,7 @@
     margin-bottom: 77px;
 }
 
-.services__cards{
+.services__cards {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -266,47 +268,48 @@
     margin: 0px auto 160px;
 }
 
-.services__cards_card{
+.services__cards_card {
     position: relative;
     padding: 51px 41px 41px 36px;
     background: #FFFFFF;
     box-shadow: 0px 10px 60px rgba(28, 45, 70, 0.1);
     border-radius: 10px;
     max-width: 410px;
+    height: 420px;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.services__cards_card_photo{
+.services__cards_card_photo {
     position: absolute;
     top: 30px;
     right: 30px;
 }
 
-.services__cards_card__title{
+.services__cards_card__title {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
-    line-height: 110%;  
+    line-height: 110%;
     color: #1A1A1A;
     padding-bottom: 13px;
     max-width: 351px;
 }
 
-.services__cards_card__title_four{
+.services__cards_card__title_four {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
-    line-height: 110%;  
+    line-height: 110%;
     color: #1A1A1A;
     padding-bottom: 15px;
     max-width: 358px;
 }
 
-.services__cards_card__subtitle{
+.services__cards_card__subtitle {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -316,7 +319,7 @@
     padding-bottom: 13px;
 }
 
-.services__cards_card__subtitle_second{
+.services__cards_card__subtitle_second {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -326,27 +329,27 @@
     padding-bottom: 129px;
 }
 
-.services__cards_card__subtitle_four{
+.services__cards_card__subtitle_four {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
     color: #1A1A1A;
-    padding-bottom: 99px;
+    padding-bottom: 65px;
 }
 
-.services__cards_card__subtitle_six{
+.services__cards_card__subtitle_six {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
     color: #1A1A1A;
-    padding-bottom: 69px;
+    padding-bottom: 40px;
 }
 
-.services__cards_card_info{
+.services__cards_card_info {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
@@ -400,24 +403,24 @@
 
 .services__cards_card_btn::before {
     content: "";
-  display: block;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #9166F0;
-  background: linear-gradient(275.53deg, #633BBC 8.77%, #9166F0 85.8%);
-  transition: opacity 0.5s ease-in-out;
-  z-index: -1000;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9166F0;
+    background: linear-gradient(275.53deg, #633BBC 8.77%, #9166F0 85.8%);
+    transition: opacity 0.5s ease-in-out;
+    z-index: -1000;
 }
 
 .services__cards_card_btn:hover::before {
-    opacity: 1;  
+    opacity: 1;
 }
 
-.we__do{
+.we__do {
     display: flex;
     justify-content: space-between;
     gap: 46px;
@@ -425,7 +428,7 @@
     margin: auto;
 }
 
-.we__do_title{
+.we__do_title {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -436,18 +439,13 @@
     padding-bottom: 72px;
 }
 
-.we__do_txt{
-    display: flex;
-    flex-direction: column;
-    gap: 52px;
-    max-width: 600px;
-}
 
-.giff__media{
+
+.giff__media {
     display: none;
 }
 
-.we__do_subtitle{
+.we__do_subtitle {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -457,9 +455,11 @@
     padding-bottom: 20px;
     border-bottom: 2px solid #D9D9D9;
     transform: .4s;
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
-.we__do_subtitle:hover{
+
+.we__do_subtitle:hover {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -471,7 +471,7 @@
     border-bottom: 2px solid #9166F0;
 }
 
-.cases__title{
+.cases__title {
     margin-top: 153px;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -484,7 +484,7 @@
     padding-bottom: 30px;
 }
 
-.cases__our_cards{
+.cases__our_cards {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -492,7 +492,7 @@
     padding-bottom: 80px;
 }
 
-.cases__our_cards_btn{
+.cases__our_cards_btn {
     padding: 16px 27px;
     border: 1px solid #BDBDBD;
     border-radius: 5px;
@@ -504,7 +504,7 @@
     color: #BDBDBD;
 }
 
-.cases__our_cards_btn:hover{
+.cases__our_cards_btn:hover {
     padding: 16px 27px;
     background: #9166F0;
     border: 1px solid #9166F0;
@@ -517,14 +517,14 @@
     color: #FFFFFF;
 }
 
-.cases__cards{
+.cases__cards {
     display: flex;
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.cases__cards_card{
+.cases__cards_card {
     background: #FFFFFF;
     box-shadow: 0px 0px 60px rgba(22, 38, 70, 0.1);
     border-radius: 10px;
@@ -532,15 +532,15 @@
     display: flex;
 }
 
-.txt__task__button{
+.txt__task__button {
     transition: .4s;
 }
 
-.cases__cards_card:hover .txt__task__button{
+.cases__cards_card:hover .txt__task__button {
     transform: rotate(-90deg);
 }
 
-.cases__cards_card_img{
+.cases__cards_card_img {
     position: relative;
     overflow: hidden;
     height: 430px;
@@ -553,27 +553,27 @@
     width: 100%;
 }
 
-.img__photo{
+.img__photo {
     position: absolute;
 }
 
-.img__photo_mob{
+.img__photo_mob {
     display: none;
     position: absolute;
 }
 
-.img__title{
+.img__title {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 136%;
     text-align: center;
-    text-transform: uppercase;   
-    color: #FFFFFF;   
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
-.cases__cards_card_img_txt{
+.cases__cards_card_img_txt {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -582,14 +582,14 @@
 }
 
 
-.cases__cards_card_txt{
+.cases__cards_card_txt {
     background: #FFFFFF;
     display: flex;
     flex-direction: column;
     padding: 26px;
 }
 
-.txt__title{
+.txt__title {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
@@ -599,7 +599,7 @@
     padding-bottom: 18px;
 }
 
-.txt__name{
+.txt__name {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -609,27 +609,27 @@
     padding-bottom: 2px;
 }
 
-.txt__location{
+.txt__location {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 160%; 
-    color: #1A1A1A; 
+    line-height: 160%;
+    color: #1A1A1A;
     margin-bottom: 12px;
 }
 
-.txt__task{
+.txt__task {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
     color: #666666;
-    margin-bottom: 2px; 
+    margin-bottom: 2px;
 }
 
-.txt__task__sublite{
+.txt__task__sublite {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -639,7 +639,7 @@
     padding-bottom: 50px;
 }
 
-.txt__task__btn__photo{
+.txt__task__btn__photo {
     transform: rotate(0);
     transition: .4s;
 }
@@ -648,13 +648,13 @@
     transform: rotate(-90deg);
 }
 
-.txt__task__btn{
+.txt__task__btn {
     display: flex;
     align-items: center;
     gap: 22px;
 }
 
-.txt__task__btn__txt{
+.txt__task__btn__txt {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -663,7 +663,7 @@
     color: #9166F0;
 }
 
-.show__more{
+.show__more {
     margin: 60px auto 145px;
     width: 240px;
     display: block;
@@ -680,7 +680,7 @@
     transition: .4s;
 }
 
-.show__more:hover{
+.show__more:hover {
     margin: 60px auto 145px;
     width: 240px;
     display: block;
@@ -695,11 +695,11 @@
     padding: 23px 55px;
 }
 
-.number{
+.number {
     margin-bottom: 140px;
 }
 
-.number__title{
+.number__title {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -711,7 +711,7 @@
     padding-bottom: 12px;
 }
 
-.number__cards_card_one{
+.number__cards_card_one {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -720,7 +720,7 @@
 
 }
 
-.number__cards{
+.number__cards {
     display: flex;
     justify-content: space-between;
     max-width: 1163px;
@@ -728,7 +728,7 @@
     margin: auto;
 }
 
-.number__cards_cash{
+.number__cards_cash {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -745,7 +745,7 @@
     width: 100%;
 }
 
-.number__cards_title{
+.number__cards_title {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -756,7 +756,7 @@
     width: 204px;
 }
 
-.number__cards_cash_prosecnt{
+.number__cards_cash_prosecnt {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -771,18 +771,19 @@
     text-fill-color: transparent;
 }
 
-.number__cards_card_block{
-   position: relative;
-   max-width: 300px;
-   width: 100%;
+.number__cards_card_block {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
 }
-.number__cards_cash_prosecnt{
+
+.number__cards_cash_prosecnt {
     position: absolute;
     top: 32px;
     right: 0;
 }
 
-.play__title{
+.play__title {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -796,7 +797,7 @@
     margin-bottom: 116px;
 }
 
-.play__cards{
+.play__cards {
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -804,7 +805,7 @@
 }
 
 
-.play__cards_card{
+.play__cards_card {
     background: #FFFFFF;
     box-shadow: 0px 10px 60px rgba(28, 45, 70, 0.1);
     border-radius: 10px;
@@ -812,12 +813,12 @@
     padding: 20px;
 }
 
-.play__cards__photo{
+.play__cards__photo {
     padding-bottom: 15px;
     margin-top: -100px;
 }
 
-.txt__play_title{
+.txt__play_title {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
@@ -827,7 +828,7 @@
     padding-bottom: 23px;
 }
 
-.txt__play_btn{
+.txt__play_btn {
     position: relative;
     display: inline-block;
     background: linear-gradient(275.53deg, #9166F0 8.77%, #633BBC 85.8%);
@@ -843,7 +844,7 @@
     padding: 14px 70px;
 }
 
-.txt__play_btn::before{
+.txt__play_btn::before {
     content: "";
     display: block;
     opacity: 0;
@@ -860,10 +861,10 @@
 }
 
 .txt__play_btn:hover::before {
-   opacity: 1;
+    opacity: 1;
 }
 
-.project__left__cards_name_mb{
+.project__left__cards_name_mb {
     display: none;
 }
 
@@ -906,7 +907,7 @@
 } */
 
 
-.play__btn{
+.play__btn {
     max-width: 320px;
     width: 100%;
     margin: 60px auto 146px;
@@ -925,7 +926,7 @@
     transition: .4s;
 }
 
-.play__btn:hover{
+.play__btn:hover {
     max-width: 320px;
     width: 100%;
     margin: 60px auto 146px;
@@ -942,7 +943,7 @@
     border-radius: 5px;
 }
 
-.project__title{
+.project__title {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -954,7 +955,7 @@
     padding-bottom: 63px;
 }
 
-.project__cards{
+.project__cards {
     display: flex;
     justify-content: center;
     gap: 80px;
@@ -962,22 +963,22 @@
 }
 
 /* left */
-.project__left__cards{
+.project__left__cards {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 660px;
 }
 
-input{
+input {
     padding: 10px;
 }
 
-.project__left__cards_text{
+.project__left__cards_text {
     display: flex;
 }
 
-.project__left__cards_text input{
+.project__left__cards_text input {
     outline: none;
     border: none;
     width: 660px;
@@ -986,7 +987,7 @@ input{
     border-radius: 10px;
 }
 
-.project__left__cards_name{
+.project__left__cards_name {
     display: flex;
     max-width: 700px;
     gap: 10px;
@@ -995,13 +996,13 @@ input{
     flex-wrap: wrap;
 }
 
-.name{
+.name {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.name input{
+.name input {
     outline: none;
     border: none;
     width: 320px;
@@ -1010,14 +1011,14 @@ input{
     padding: 26px 21px;
 }
 
-.cards_right__photo{
+.cards_right__photo {
     display: flex;
     align-items: center;
     padding-bottom: 32px;
     gap: 20px;
 }
 
-.cards_right__photo_txt_name{
+.cards_right__photo_txt_name {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -1026,7 +1027,7 @@ input{
     color: #1A1A1A;
 }
 
-.cards_right__photo_txt_info{
+.cards_right__photo_txt_info {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
@@ -1035,7 +1036,7 @@ input{
     color: #1A1A1A;
 }
 
-.cards_right__mail{
+.cards_right__mail {
     display: block;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -1046,7 +1047,7 @@ input{
     padding-bottom: 8px;
 }
 
-.cards_right_info{
+.cards_right_info {
     padding-top: 23px;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -1095,24 +1096,24 @@ input{
 
 .cards_right_btn::before {
     content: "";
-  display: block;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #210C51;
-  background: linear-gradient(275.53deg, #210C51 8.77%, #9166F0 85.8%);
-  transition: opacity 0.5s ease-in-out;
-  z-index: -1000;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #210C51;
+    background: linear-gradient(275.53deg, #210C51 8.77%, #9166F0 85.8%);
+    transition: opacity 0.5s ease-in-out;
+    z-index: -1000;
 }
 
 .cards_right_btn:hover::before {
-    opacity: 1;  
+    opacity: 1;
 }
 
-.cards_right_konf{
+.cards_right_konf {
     padding-top: 15px;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -1125,24 +1126,24 @@ input{
     margin: auto;
 }
 
-.footer{
+.footer {
     margin-top: 80px;
     background: #010423;
     padding: 47px 15px;
 }
 
-.footer__nav{
+.footer__nav {
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
 
-.footer__telephone{
+.footer__telephone {
     display: flex;
     flex-direction: column;
 }
 
-.footer__telephone_txt{
+.footer__telephone_txt {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
@@ -1151,7 +1152,7 @@ input{
     color: #B6B6B6;
 }
 
-.footer__telephone_number{
+.footer__telephone_number {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -1160,7 +1161,7 @@ input{
     color: #FFFFFF;
 }
 
-.foter__link{
+.foter__link {
     display: flex;
     max-width: 315px;
     gap: 30px;
@@ -1168,7 +1169,7 @@ input{
     justify-content: space-between;
 }
 
-.footer__link_list a{
+.footer__link_list a {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
@@ -1178,7 +1179,7 @@ input{
     transition: .4s;
 }
 
-.footer__link_list a:hover{
+.footer__link_list a:hover {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
@@ -1192,17 +1193,15 @@ input{
 
 /* bim */
 
-.main_bim{
+.main_bim {}
 
-}
-
-.transition__header{
+.transition__header {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.index{
+.index {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
@@ -1211,7 +1210,7 @@ input{
     color: #FFFFFF;
 }
 
-.defined{
+.defined {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
@@ -1220,7 +1219,7 @@ input{
     color: #AFAFAF;
 }
 
-.main_bim__title{
+.main_bim__title {
     padding-top: 57px;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -1232,7 +1231,7 @@ input{
     padding-bottom: 87px;
 }
 
-.catalog__title{
+.catalog__title {
     margin-left: 155px;
     margin-top: 82px;
     font-family: 'Ubuntu';
@@ -1245,7 +1244,7 @@ input{
     max-width: 880px;
 }
 
-.cases__content{
+.cases__content {
     margin-top: 66px;
     margin-left: 155px;
     display: flex;
@@ -1253,7 +1252,7 @@ input{
     flex-wrap: wrap;
 }
 
-.cases__our_cards_bim{
+.cases__our_cards_bim {
     display: flex;
     align-items: flex-start;
     gap: 20px;
@@ -1261,7 +1260,7 @@ input{
     padding-bottom: 80px;
 }
 
-.cases__content__cards{
+.cases__content__cards {
     display: flex;
     max-width: 1290px;
     width: 100%;
@@ -1270,7 +1269,7 @@ input{
     margin-bottom: 145px;
 }
 
-.cases__content__cards_card{
+.cases__content__cards_card {
     background: #FFFFFF;
     border: 1px solid #EDEDED;
     box-shadow: 0px 10px 60px rgba(28, 45, 70, 0.1);
@@ -1278,20 +1277,20 @@ input{
     max-width: 410px;
 }
 
-.txt__task__button{
+.txt__task__button {
     transition: .4s;
 }
 
-.cases__content__cards_card:hover .txt__task__button{
+.cases__content__cards_card:hover .txt__task__button {
     transform: rotate(-90deg);
 }
 
 
-.card__txt{
+.card__txt {
     padding: 35px 40px;
 }
 
-.card__title{
+.card__title {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
@@ -1301,7 +1300,7 @@ input{
     padding-bottom: 15px;
 }
 
-.card__subtitle{
+.card__subtitle {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -1315,17 +1314,17 @@ input{
 
 /* bm_a */
 
-.accompany{
+.accompany {
     margin-top: 50px;
 }
 
-.accompany__cards{
+.accompany__cards {
     display: flex;
     justify-content: center;
     gap: 66px;
 }
 
-.accompany__title{   
+.accompany__title {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -1336,20 +1335,20 @@ input{
     width: 555px;
 }
 
-.righ__cards_bm_a_card{
+.righ__cards_bm_a_card {
     display: flex;
     align-items: center;
 }
 
-.accompany__tutle_right{
+.accompany__tutle_right {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 100px;
-    line-height: 130%; 
+    line-height: 130%;
     text-align: right;
     letter-spacing: -0.1em;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     background: linear-gradient(275.53deg, #9166F0 8.77%, #210C51 85.8%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1358,7 +1357,7 @@ input{
     padding-right: 20px;
 }
 
-.accompany__tutle_left{
+.accompany__tutle_left {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -1368,7 +1367,7 @@ input{
     width: 300px;
 }
 
-.cases__title_bm{
+.cases__title_bm {
     margin-top: 121px;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -1381,14 +1380,14 @@ input{
     padding-bottom: 30px;
 }
 
-.management__cards{
+.management__cards {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
 
-.management__cards_card{
+.management__cards_card {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -1397,7 +1396,7 @@ input{
     width: 296px;
 }
 
-.management__title{
+.management__title {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -1410,7 +1409,7 @@ input{
     margin: 145px auto 66px;
 }
 
-.management__cards_card_txt{
+.management__cards_card_txt {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -1420,7 +1419,7 @@ input{
     color: #1A1A1A;
 }
 
-.project__title_autbm{
+.project__title_autbm {
     margin-top: 60px;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -1435,7 +1434,7 @@ input{
 
 
 /* traning */
-.cases__title_tr{
+.cases__title_tr {
     margin-top: 60px;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -1448,7 +1447,7 @@ input{
     padding-bottom: 66px;
 }
 
-.cases__title_tr_b{
+.cases__title_tr_b {
     margin-top: 140px;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -1461,7 +1460,7 @@ input{
     padding-bottom: 66px;
 }
 
-.play__title_tr{
+.play__title_tr {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -1478,28 +1477,28 @@ input{
 
 /* contact */
 
-.contact{
+.contact {
     margin-top: 70px;
 }
 
-.main__contact{
+.main__contact {
     max-width: 1290px;
     width: 100%;
     margin: auto;
 }
 
-.main__contact__top{
+.main__contact__top {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.main__contact__top_txt{
+.main__contact__top_txt {
     max-width: 850px;
     width: 100%;
 }
 
-.main__contact__top_title{
+.main__contact__top_title {
     max-width: 740px;
     width: 100%;
     font-family: 'Ubuntu';
@@ -1511,25 +1510,25 @@ input{
     color: #1A1A1A;
 }
 
-.main__contact__top_block_social{
+.main__contact__top_block_social {
     padding-top: 10px;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.main__contact__top_block{
+.main__contact__top_block {
     padding-top: 16px;
 }
 
-.main__contact__bottom{
+.main__contact__bottom {
     margin-top: 79px;
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.main__contact__bottom_form input{
+.main__contact__bottom_form input {
     border: 1px solid #9166F0;
     border-radius: 10px;
     width: 850px;
@@ -1539,7 +1538,7 @@ input{
     outline: none;
 }
 
-.right_main__contact__bottom{
+.right_main__contact__bottom {
     max-width: 410px;
     width: 100%;
     display: flex;
@@ -1547,13 +1546,13 @@ input{
     gap: 20px;
 }
 
-.right_main__contact_form{
+.right_main__contact_form {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.right_main__contact_form input{
+.right_main__contact_form input {
     outline: none;
     border: 1px solid #9166F0;
     border-radius: 10px;
@@ -1568,7 +1567,7 @@ input{
     color: #5B5B5B;
 }
 
-.cards_right_btn_cont{
+.cards_right_btn_cont {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -1584,7 +1583,7 @@ input{
     box-shadow: 0px 16px 22px 0px rgba(81, 31, 237, 0.38);
 }
 
-.cards_right_konf_cont{
+.cards_right_konf_cont {
     padding-top: 4px;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -1603,17 +1602,18 @@ input{
 
 
 
-@media(max-width:576px){
-    .link__header, 
-    .header__telephone{
+@media(max-width:576px) {
+
+    .link__header,
+    .header__telephone {
         display: none;
     }
 
-    .bhurger{
+    .bhurger {
         display: block;
     }
 
-    .header__content__txt{
+    .header__content__txt {
         margin-bottom: 100px;
     }
 
@@ -1621,7 +1621,7 @@ input{
         padding: 20px 15px;
     }
 
-    .header__content_title{
+    .header__content_title {
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 700;
@@ -1634,7 +1634,7 @@ input{
         margin: auto;
     }
 
-    .header__content_subtitle{
+    .header__content_subtitle {
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 300;
@@ -1646,17 +1646,17 @@ input{
         margin: auto;
     }
 
-    .header__content_button{
+    .header__content_button {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .header__info{
+    .header__info {
         flex-direction: column;
     }
 
-    .header__content__btn{
+    .header__content__btn {
         text-align: center;
         padding: 20px 60px;
         max-width: 300px;
@@ -1664,14 +1664,14 @@ input{
         margin: auto;
     }
 
-    .header__content__photo{
+    .header__content__photo {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 124px;
     }
 
-    .main__photo{
+    .main__photo {
         position: relative;
         width: 300px;
         text-align: center;
@@ -1679,23 +1679,23 @@ input{
         z-index: 1;
     }
 
-    .main__photo_ab{
+    .main__photo_ab {
         position: absolute;
         top: -112px;
         left: 50%;
         z-index: -2;
     }
-    
-    .header__info{
+
+    .header__info {
         gap: 0;
     }
 
-    .zastavka{
+    .zastavka {
         width: 235px;
         z-index: -2;
     }
 
-    .we__do_title{
+    .we__do_title {
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 700;
@@ -1705,51 +1705,57 @@ input{
         text-transform: uppercase;
         color: #1A1A1A;
     }
-  
 
-    .services__title{
+
+    .services__title {
         margin-bottom: 91px;
     }
 
-    .we__do_subtitle{
+    .we__do_subtitle {
         border: none;
     }
 
-    .we__do{
+    .we__do {
         flex-direction: column;
     }
 
-    .we__do_photo{
+    .we__do_photo {
         display: none;
     }
 
     .we__do_subtitle,
-    .we__do_title{
+    .we__do_title {
         text-align: center;
     }
+    
+    /* .we__do_subtitle{
+        max-width: 500px;
+        width: 100%;
+    } */
 
-    .we__do_title{
+    .we__do_title {
         padding-bottom: 0;
     }
 
-    .giff__media{
+    .giff__media {
         padding-bottom: 25px;
         display: block;
     }
 
-    .we__do_title_block{
+    .we__do_title_block {
+        width: 100%;
         flex-direction: column;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .services__cards{
+    .services__cards {
         padding: 0 15px;
         margin: 0px auto 100px;
     }
 
-    .cases__title{
+    .cases__title {
         margin-top: 100px;
         margin-bottom: 23px;
         font-family: 'Ubuntu';
@@ -1763,12 +1769,13 @@ input{
         padding-bottom: 0;
     }
 
-    .cases__our_cards{
+    .cases__our_cards {
+        flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
     }
 
-    .cases__cards_card{
+    .cases__cards_card {
         flex-direction: column;
         max-width: 345px;
         width: 100%;
@@ -1778,23 +1785,23 @@ input{
     }
 
 
-    .cases__cards_card_img{
+    .cases__cards_card_img {
         border-radius: 10px 10px 0px 0px;
     }
 
-    .cases__cards_card_img_txt{
+    .cases__cards_card_img_txt {
         z-index: 1;
     }
 
-    .txt__task__btn__photo{
+    .txt__task__btn__photo {
         width: 40px;
     }
 
-    .img__title{
+    .img__title {
         width: 222px;
     }
-    
-    .txt__task__btn__txt{
+
+    .txt__task__btn__txt {
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 700;
@@ -1802,31 +1809,31 @@ input{
         line-height: 130%;
         color: #9166F0;
     }
-    
-    .cases__cards_card_img{
+
+    .cases__cards_card_img {
         max-width: 345px;
         width: 100%;
         height: 180px;
     }
-    
-    .img__photo_mob{
+
+    .img__photo_mob {
         display: block;
         position: absolute;
     }
 
-    .img__photo{
+    .img__photo {
         display: none;
     }
 
-    .show__more{
+    .show__more {
         margin: 40px auto 92px;
     }
 
-    .number{
+    .number {
         margin-bottom: 90px;
     }
-    
-    .number__title{
+
+    .number__title {
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 700;
@@ -1837,13 +1844,13 @@ input{
         color: #1A1A1A;
     }
 
-    .number__cards{
+    .number__cards {
         flex-wrap: wrap;
         justify-content: center;
         max-width: 337px;
     }
 
-    .number__cards_cash{
+    .number__cards_cash {
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 700;
@@ -1858,7 +1865,7 @@ input{
         background-clip: text;
     }
 
-    .number__cards_title{
+    .number__cards_title {
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 400;
@@ -1869,15 +1876,15 @@ input{
         max-width: 165px;
     }
 
-    .number__cards_card_one{
+    .number__cards_card_one {
         max-width: 165px;
     }
 
-    .number__cards_cash_prosecnt{
+    .number__cards_cash_prosecnt {
         width: 28px;
     }
 
-    .play__title{
+    .play__title {
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 700;
@@ -1890,23 +1897,23 @@ input{
         width: 100%;
     }
 
-    .play__cards{
+    .play__cards {
         gap: 75px;
     }
 
 
-    .play__cards_card{
+    .play__cards_card {
         display: block;
         width: 334px;
         text-align: center;
     }
 
-    .play__cards__photo{
+    .play__cards__photo {
         padding-top: 30px;
         width: 300px;
     }
 
-    .txt__play_btn{
+    .txt__play_btn {
         text-align: center;
         align-items: center;
         justify-content: center;
@@ -1914,11 +1921,11 @@ input{
         max-width: 300px;
     }
 
-    .play__btn{
+    .play__btn {
         margin: 40px auto 110px;
     }
 
-    .project__title{
+    .project__title {
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 700;
@@ -1930,47 +1937,47 @@ input{
         padding-bottom: 24px;
     }
 
-    .project__right__cards{
+    .project__right__cards {
         order: -1;
     }
-    
-    .cards_right__photo{
+
+    .cards_right__photo {
         padding-bottom: 24px;
     }
-    
-    .cards_right__mail, 
-    .cards_right_info{
+
+    .cards_right__mail,
+    .cards_right_info {
         text-align: center;
     }
 
-    .cards_right_info{
+    .cards_right_info {
         padding-top: 21px;
     }
 
-    .project__left__cards_text input{
+    .project__left__cards_text input {
         width: 345px;
         height: 190px;
     }
 
     .project__left__cards,
-    .name{
+    .name {
         justify-content: center;
         align-items: center;
     }
 
-    .name input{
+    .name input {
         width: 345px;
     }
 
-    .project__left__cards_name_mb{
+    .project__left__cards_name_mb {
         display: block;
     }
 
-    .cards_right_btn_main{
+    .cards_right_btn_main {
         display: none;
     }
 
-    .project__cards{
+    .project__cards {
         gap: 0;
     }
 
@@ -1982,12 +1989,12 @@ input{
         margin-top: 55px;
     }
 
-    .footer__nav{
+    .footer__nav {
         flex-direction: column;
         gap: 33px;
     }
-    
-    .footer__telephone_txt{
+
+    .footer__telephone_txt {
         text-align: center;
     }
 
@@ -2013,12 +2020,12 @@ input{
         z-index: 3;
     }
 
-    .foter__link{
+    .foter__link {
         padding-top: 25px;
     }
 
     .services__cards_card__title_four,
-    .services__cards_card__title{
+    .services__cards_card__title {
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 500;
@@ -2027,12 +2034,12 @@ input{
         color: #1A1A1A;
     }
 
-    .services__cards_card_btn{
+    .services__cards_card_btn {
         padding: 25px 50px;
         border-radius: 5px;
     }
 
-    .services__title{
+    .services__title {
         margin-top: 91px;
         margin-bottom: 43px;
         font-family: 'Ubuntu';
@@ -2051,7 +2058,7 @@ input{
         white-space: normal;
         padding-bottom: 0;
     }
-    
+
     .marquee span {
         display: block;
         padding-left: 0;
@@ -2059,9 +2066,17 @@ input{
         transform: none;
     }
 
-    .main__photo_btn{
+    .main__photo_btn {
         position: absolute;
         top: 90px;
         left: 50%;
+    }
+    
+    .show__more:hover{
+        margin: 40px auto 92px;
+    }
+
+    .services__cards_card {
+        /* height: 0px; */
     }
 }
