@@ -1727,7 +1727,7 @@ input {
     .we__do_title {
         text-align: center;
     }
-    
+
     /* .we__do_subtitle{
         max-width: 500px;
         width: 100%;
@@ -2053,26 +2053,13 @@ input {
     }
 
 
-    .marquee {
-        overflow: auto;
-        white-space: normal;
-        padding-bottom: 0;
-    }
-
-    .marquee span {
-        display: block;
-        padding-left: 0;
-        animation: none;
-        transform: none;
-    }
-
     .main__photo_btn {
         position: absolute;
         top: 90px;
         left: 50%;
     }
-    
-    .show__more:hover{
+
+    .show__more:hover {
         margin: 40px auto 92px;
     }
 
