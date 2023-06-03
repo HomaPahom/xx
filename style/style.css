@@ -2377,6 +2377,7 @@ input {
         top: 0;
         left: 0;
         margin-left: -100%;
+        transition: .5s;
        }
     
      .show{
