@@ -1,662 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Ubuntu:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Document</title>
-  </head>
-  <body>
-    <header class="header">
-      <nav class="nav container">
-        <a href="./index.html" class="logo__header" id="logoHeader">
-          <img src="./img/logo.png" alt="Logo" class="logo__header_main">
-        </a>
-
-        <!-- <a href="./index.html" class="logo__header_mb" id="logoHeaderMb">
-          <img src="./img/logo_mb.svg" alt="Logo" class="logo__header_main">
-        </a> -->
-    
-        <ul class="link__header">
-          <li class="link__header__list">
-            <a href="./bim_content.html">BIM-контент</a>
-          </li>
-          <li class="link__header__list">
-            <a href="./autbm.html">Сопровождение BIM проектов</a>
-          </li>
-          <li class="link__header__list">
-            <a href="./training.html">Обучение</a>
-          </li>
-          <li class="link__header__list">
-            <a href="./contacts.html">Контакты</a>
-          </li>
-        </ul>
-    
-        <div class="header__content">
-          <!-- <div class="img__header__content">
-                    <img src="./img/vk.png" alt="" class="vk">
-                    <img src="./img/yt.png" alt="" class="yt">
-                    <img src="./img/tg.png" alt="" class="tg">
-                </div>  -->
-    
-          <a href="#!" class="header__telephone">+7 (982) 623 26 17</a>
-        </div>
-    
-        <button class="bhurger" onclick="toggleMenu()">
-          <img src="./img/bhurger.svg" alt="">
-        </button>
-
-        <!-- <button class="close hidden" onclick="toggleMenu()">
-          <img src="./img/close.svg" alt="">
-        </button> -->
-    
-        <!-- Добавляем выпадающее меню -->
-        <div class="dropdown-menu">
-          <ul class="dropdown-menu_list">
-            <li class="dropdown-menu_link"><a href="./bim_content.html">BIM-контент</a></li>
-            <li class="dropdown-menu_link"><a href="./autbm.html">Сопровождение BIM проектов</a></li>
-            <li class="dropdown-menu_link"><a href="./training.html">Обучение</a></li>
-            <li class="dropdown-menu_link"><a href="./contacts.html">Контакты</a></li>
-          </ul>
-        </div>
-      </nav>
-
-      <div class="header__info">
-        <div class="header__content__txt">
-          <h1 class="header__content_title">
-            Растим показатели вашего бизнеса
-          </h1>
-
-          <p class="header__content_subtitle">
-            У всех наших BIM менеджеров опыт работы с компаниями более 10 лет.
-            Поэтому мы превращаем наш многолетний опыт BIM в ваш успех!
-          </p>
-          <div class="header__content_button">
-            <a href="./contacts.html" class="header__content__btn">
-              Обсудить проект
+</head>
+<body>
+    <header class="header_bim">
+        <nav class="nav container">
+            <a href="./index.html" class="logo__header" id="logoHeader">
+              <img src="./img/logo.png" alt="Logo" class="logo__header_main">
             </a>
-            <a href="#!" class="header__content__btn_gradient">
-              Обсудить проект
-            </a>
-            <a href="./training.html" class="header__content__btn">
-              Выбрать курс
-            </a>
-          </div>
-        </div>
-        <div class="header__content__photo">
-          <img src="./img/komp.png" alt="" class="main__photo" />
-          <div class="main__photo_ab">
-            <img src="./img/zastavka.png" alt="" class="zastavka" />
-          </div>
-          <div class="main__photo_btn">
-            <a href="https://www.youtube.com/watch?v=CyyEuKqA9RU">
-              <img src="./img/play__btn.png" alt="" class="play__btn__header" />
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="marquee">
-        <span><img src="./img/begushaya.png" alt="" /></span>
-      </div>
+    
+            <!-- <a href="./index.html" class="logo__header_mb" id="logoHeaderMb">
+              <img src="./img/logo_mb.svg" alt="Logo" class="logo__header_main">
+            </a> -->
+        
+            <ul class="link__header">
+              <li class="link__header__list">
+                <a href="./bim_content.html">BIM-контент</a>
+              </li>
+              <li class="link__header__list">
+                <a href="./autbm.html">Сопровождение BIM проектов</a>
+              </li>
+              <li class="link__header__list">
+                <a href="./training.html">Обучение</a>
+              </li>
+              <li class="link__header__list">
+                <a href="./contacts.html">Контакты</a>
+              </li>
+            </ul>
+        
+            <div class="header__content">
+              <!-- <div class="img__header__content">
+                        <img src="./img/vk.png" alt="" class="vk">
+                        <img src="./img/yt.png" alt="" class="yt">
+                        <img src="./img/tg.png" alt="" class="tg">
+                    </div>  -->
+        
+              <a href="#!" class="header__telephone">+7 (982) 623 26 17</a>
+            </div>
+        
+            <button class="bhurger" onclick="toggleMenu()">
+              <img src="./img/bhurger.svg" alt="">
+            </button>
+    
+            <!-- <button class="close hidden" onclick="toggleMenu()">
+              <img src="./img/close.svg" alt="">
+            </button> -->
+        
+            <!-- Добавляем выпадающее меню -->
+            <div class="dropdown-menu">
+              <ul class="dropdown-menu_list">
+                <li class="dropdown-menu_link"><a href="./bim_content.html">BIM-контент</a></li>
+                <li class="dropdown-menu_link"><a href="./autbm.html">Сопровождение BIM проектов</a></li>
+                <li class="dropdown-menu_link"><a href="./training.html">Обучение</a></li>
+                <li class="dropdown-menu_link"><a href="./contacts.html">Контакты</a></li>
+              </ul>
+            </div>
+          </nav>
+
+
+        <header class="main_bim container">
+            <div class="transition__header">
+                <a href="./index.html" class="index">
+                    Главная
+                </a>
+                <img src="./img/bim__next.png" alt="">
+                <a href="./contacts.html" class="defined">
+                    Контакты
+                </a>
+            </div>
+
+            <p class="main_bim__title">
+                Контакты
+            </p>
+        </header>
     </header>
 
     <main class="main">
-      <section class="services">
-        <h1 class="services__title">наши услуги</h1>
+        <section class="contact">
+            <div class="main__contact">
+                <div class="main__contact__top">
+                    <div class="main__contact__top_txt">
+                        <h1 class="main__contact__top_title">
+                            Свяжитесь с нами, и мы проконсультируем вас по всем вопросам
+                        </h1>
+                    </div>
+                    <div class="main__contact__top_block">
+                        <div class="cards_right__photo">
+                            <img src="./img/photo.png" alt="">
+                            <div class="cards_right__photo_txt">
+                                <p class="cards_right__photo_txt_name">
+                                    Александр Кульгинский
+                                </p>
+                                <p class="cards_right__photo_txt_info">
+                                    Управляющий партнер
+                                </p>
+                            </div>  
+                        </div>
+                        <!-- number -->
+                        <a href="" class="cards_right__mail">
+                            admin@hh-soft.ru
+                        </a>
+    
+                        <a href="" class="cards_right__mail">
+                            +7 (982) 623 26 17
+                        </a>
 
-        <div class="services__cards">
-          <!-- 1 -->
-          <div class="services__cards_card">
-            <img
-              src="./img/search.png"
-              alt=""
-              class="services__cards_card_photo"
-            />
-            <p class="services__cards_card__title">
-              Сопровождение BIM проектов
-            </p>
-
-            <p class="services__cards_card__subtitle">
-              Осуществляем анализ технического задания на BIM-проектирование,
-              информационных требований и плана выполнения BIM-проекта на
-              предмет
-            </p>
-
-            <a href="#!" class="services__cards_card_info"> Подробнее </a>
-
-            <button class="services__cards_card_btn">Оставить заявку</button>
-          </div>
-          <!-- 2 -->
-          <div class="services__cards_card">
-            <img src="./img/2.png" alt="" class="services__cards_card_photo" />
-            <p class="services__cards_card__title">Внедрение BIM</p>
-
-            <p class="services__cards_card__subtitle_second">
-              Мы помогаем внедрить BIM в вашу компанию используя свой 10 летний
-              опыт внедрения BIM в свой бизнес.
-            </p>
-
-            <!-- <a href="#!" class="services__cards_card_info">
-                        Подробнее
-                    </a> -->
-
-            <button class="services__cards_card_btn">Оставить заявку</button>
-          </div>
-          <!-- 3 -->
-          <div class="services__cards_card">
-            <img src="./img/3.png" alt="" class="services__cards_card_photo" />
-            <p class="services__cards_card__title">Обучение проектировщиков</p>
-
-            <p class="services__cards_card__subtitle">
-              Мы обучаем применять в архитектурном проектировании технологии
-              Building Information Modelling (BIM) или информационное
-              моделирование зданий...
-            </p>
-
-            <a href="#!" class="services__cards_card_info"> Подробнее </a>
-
-            <button class="services__cards_card_btn">Оставить заявку</button>
-          </div>
-          <!-- 4 -->
-          <div class="services__cards_card">
-            <img src="./img/4.png" alt="" class="services__cards_card_photo" />
-            <p class="services__cards_card__title_four">
-              Создание BIM библиотек и шаблонов
-            </p>
-
-            <p class="services__cards_card__subtitle_four">
-              Мы разрабатываем BIM-модель вашего проекта целиком, либо отдельных
-              его частей.
-            </p>
-
-            <button class="services__cards_card_btn">Оставить заявку</button>
-          </div>
-          <!-- 5 -->
-          <div class="services__cards_card">
-            <img src="./img/5.png" alt="" class="services__cards_card_photo" />
-            <p class="services__cards_card__title_four">
-              Создание BIM библиотек и шаблонов
-            </p>
-
-            <p class="services__cards_card__subtitle_four">
-              Мы разрабатываем BIM-модель вашего проекта целиком, либо отдельных
-              его частей.
-            </p>
-
-            <button class="services__cards_card_btn">Оставить заявку</button>
-          </div>
-          <!-- 6 -->
-          <div class="services__cards_card">
-            <img src="./img/6.png" alt="" class="services__cards_card_photo" />
-            <p class="services__cards_card__title">
-              Перевод документации из 2D в BIM
-            </p>
-
-            <p class="services__cards_card__subtitle_six">
-              Осуществляем анализ технического задания на BIM-проектирование,
-              информационных требований и плана выполнения BIM-проекта на
-              предмет
-            </p>
-
-            <button class="services__cards_card_btn">Оставить заявку</button>
-          </div>
-        </div>
-      </section>
-
-      <section class="we__do">
-        <div class="we__do_txt">
-          <h2 class="we__do_title">Что мы умеем:</h2>
-          
-          <div class="we__do_title_block">
-            <img src="./img/giff.svg" alt="" class="giff__media" />
-            <p class="we__do_subtitle">Создавать BIM библиотеки</p>
-          </div>
-          <div class="we__do_title_block">
-            <img src="./img/giff.svg" alt="" class="giff__media" />
-            <p class="we__do_subtitle">Создавать BIM библиотеки</p>
-          </div>
-          <div class="we__do_title_block">
-            <img src="./img/giff.svg" alt="" class="giff__media" />
-            <p class="we__do_subtitle">Создавать BIM библиотеки</p>
-          </div>
-          <div class="we__do_title_block">
-            <img src="./img/giff.svg" alt="" class="giff__media" />
-            <p class="we__do_subtitle">Создавать BIM библиотеки</p>
-          </div>
-            <div class="we__do_title_block">
-            <img src="./img/giff.svg" alt="" class="giff__media" />
-            <p class="we__do_subtitle">Создавать BIM библиотеки</p>
+                        <div class="main__contact__top_block_social">
+                            <a href="https://vk.com/pakhommmm"><img src="./img/vk1.png" alt=""></a>
+                            <a href="https://www.youtube.com/@PROWEBuz"><img src="./img/yt1.png" alt=""></a>
+                            <a href="https://t.me/mamkeprivet_uwu"><img src="./img/th1.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__contact__bottom">
+                    <div class="left_main__contact__bottom">
+                        <form class="main__contact__bottom_form">
+                            <input type="text" placeholder="Ваше сообщение">
+                        </form>
+                    </div>
+                    <div class="right_main__contact__bottom">
+                        <form class="right_main__contact_form">
+                            <input type="text" placeholder="Ваше имя">
+                            <input type="text" placeholder="Телефон">
+                            <input type="text" placeholder="Электронная почта">
+                        </form>
+                        <a href="#!" class="cards_right_btn_cont">
+                            Обсудить проект
+                        </a>
+    
+                        <p class="cards_right_konf_cont">
+                            Нажимая на кнопку, вы соглашаетесь с Политикой конфиденциальности
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <img src="./img/gif.png" alt="" class="we__do_photo" />
-      </section>
-
-      <section class="cases">
-        <h3 class="cases__title">наши КЕЙСЫ</h3>
-        <div class="cases__our_cards">
-          <a href="#!" class="cases__our_cards_btn"> Все работы (108) </a>
-          <a href="#!" class="cases__our_cards_btn"> Внедрение (32) </a>
-          <a href="#!" class="cases__our_cards_btn"> Сопровождение </a>
-          <a href="#!" class="cases__our_cards_btn"> Обучение </a>
-        </div>
-        <div class="cases__cards">
-          <!-- 1 -->
-          <div class="cases__cards_card">
-            <div class="cases__cards_card_img img">
-              <img src="./img/Maskgroup.png" alt="" class="img__photo" />
-              <img
-                src="./img/Maskgroup_mob.png"
-                alt=""
-                class="img__photo_mob"
-              />
-              <div class="cases__cards_card_img_txt">
-                <img src="./img/logo2.png" alt="" />
-                <p class="img__title">Внедрение BIM на предприятии</p>
-              </div>
-            </div>
-
-            <div class="cases__cards_card_txt txt">
-              <p class="txt__title">Внедрение BIM технологии в ООО «Аверс»</p>
-              <p class="txt__name">Заказчик:</p>
-              <p class="txt__location">ООО «Аверс», г. Магнитогорск</p>
-              <p class="txt__task">Задача:</p>
-              <p class="txt__task__sublite">
-                Переход компании на BIM технологию. Построение информационных
-                моделей и выпуск проектной и рабочей документации в Revit на
-                этапе пилотного проекта.
-              </p>
-
-              <a href="#!" class="txt__task__btn">
-                <img src="./img/btn.png" alt="" class="txt__task__btn__photo" />
-                <!-- <a href="#!" class="txt__task__button">
-                                <img src="./img/btn.png" alt="">
-                            </a> -->
-                <p class="txt__task__btn__txt">Смотреть работу</p>
-              </a>
-            </div>
-          </div>
-          <!-- 2 -->
-          <div class="cases__cards_card">
-            <div class="cases__cards_card_img img">
-              <img src="./img/Maskgroup.png" alt="" class="img__photo" />
-              <img
-                src="./img/Maskgroup_mob.png"
-                alt=""
-                class="img__photo_mob"
-              />
-              <div class="cases__cards_card_img_txt">
-                <img src="./img/logo2.png" alt="" />
-                <p class="img__title">Внедрение BIM на предприятии</p>
-              </div>
-            </div>
-
-            <div class="cases__cards_card_txt txt">
-              <p class="txt__title">Внедрение BIM технологии в ООО «Аверс»</p>
-
-              <p class="txt__name">Заказчик:</p>
-              <p class="txt__location">ООО «Аверс», г. Магнитогорск</p>
-              <p class="txt__task">Задача:</p>
-              <p class="txt__task__sublite">
-                Переход компании на BIM технологию. Построение информационных
-                моделей и выпуск проектной и рабочей документации в Revit на
-                этапе пилотного проекта.
-              </p>
-
-              <a href="#!" class="txt__task__btn">
-                <img src="./img/btn.png" alt="" class="txt__task__btn__photo" />
-                <!-- <a href="#!" class="txt__task__button">
-                                <img src="./img/btn.png" alt="">
-                            </a> -->
-                <p class="txt__task__btn__txt">Смотреть работу</p>
-              </a>
-            </div>
-          </div>
-          <!-- 3 -->
-          <div class="cases__cards_card">
-            <div class="cases__cards_card_img img">
-              <img src="./img/Maskgroup.png" alt="" class="img__photo" />
-              <img
-                src="./img/Maskgroup_mob.png"
-                alt=""
-                class="img__photo_mob"
-              />
-              <div class="cases__cards_card_img_txt">
-                <img src="./img/logo2.png" alt="" />
-                <p class="img__title">Внедрение BIM на предприятии</p>
-              </div>
-            </div>
-
-            <div class="cases__cards_card_txt txt">
-              <p class="txt__title">Внедрение BIM технологии в ООО «Аверс»</p>
-
-              <p class="txt__name">Заказчик:</p>
-              <p class="txt__location">ООО «Аверс», г. Магнитогорск</p>
-              <p class="txt__task">Задача:</p>
-              <p class="txt__task__sublite">
-                Переход компании на BIM технологию. Построение информационных
-                моделей и выпуск проектной и рабочей документации в Revit на
-                этапе пилотного проекта.
-              </p>
-
-              <a href="#!" class="txt__task__btn">
-                <img src="./img/btn.png" alt="" class="txt__task__btn__photo" />
-                <!-- <a href="#!" class="txt__task__button">
-                                <img src="./img/btn.png" alt="">
-                            </a> -->
-                <p class="txt__task__btn__txt">Смотреть работу</p>
-              </a>
-            </div>
-          </div>
-          <!-- 4 -->
-          <div class="cases__cards_card">
-            <div class="cases__cards_card_img img">
-              <img src="./img/Maskgroup.png" alt="" class="img__photo" />
-              <img
-                src="./img/Maskgroup_mob.png"
-                alt=""
-                class="img__photo_mob"
-              />
-              <div class="cases__cards_card_img_txt">
-                <img src="./img/logo2.png" alt="" />
-                <p class="img__title">Внедрение BIM на предприятии</p>
-              </div>
-            </div>
-
-            <div class="cases__cards_card_txt txt">
-              <p class="txt__title">Внедрение BIM технологии в ООО «Аверс»</p>
-
-              <p class="txt__name">Заказчик:</p>
-              <p class="txt__location">ООО «Аверс», г. Магнитогорск</p>
-              <p class="txt__task">Задача:</p>
-              <p class="txt__task__sublite">
-                Переход компании на BIM технологию. Построение информационных
-                моделей и выпуск проектной и рабочей документации в Revit на
-                этапе пилотного проекта.
-              </p>
-
-              <a href="#!" class="txt__task__btn">
-                <img src="./img/btn.png" alt="" class="txt__task__btn__photo" />
-                <!-- <a href="#!" class="txt__task__button">
-                                <img src="./img/btn.png" alt="">
-                            </a> -->
-                <p class="txt__task__btn__txt">Смотреть работу</p>
-              </a>
-            </div>
-          </div>
-          <!-- 5 -->
-          <div class="cases__cards_card">
-            <div class="cases__cards_card_img img">
-              <img src="./img/Maskgroup.png" alt="" class="img__photo" />
-              <img
-                src="./img/Maskgroup_mob.png"
-                alt=""
-                class="img__photo_mob"
-              />
-              <div class="cases__cards_card_img_txt">
-                <img src="./img/logo2.png" alt="" />
-                <p class="img__title">Внедрение BIM на предприятии</p>
-              </div>
-            </div>
-
-            <div class="cases__cards_card_txt txt">
-              <p class="txt__title">Внедрение BIM технологии в ООО «Аверс»</p>
-
-              <p class="txt__name">Заказчик:</p>
-              <p class="txt__location">ООО «Аверс», г. Магнитогорск</p>
-              <p class="txt__task">Задача:</p>
-              <p class="txt__task__sublite">
-                Переход компании на BIM технологию. Построение информационных
-                моделей и выпуск проектной и рабочей документации в Revit на
-                этапе пилотного проекта.
-              </p>
-
-              <a href="#!" class="txt__task__btn">
-                <img src="./img/btn.png" alt="" class="txt__task__btn__photo" />
-                <!-- <a href="#!" class="txt__task__button">
-                                <img src="./img/btn.png" alt="">
-                            </a> -->
-                <p class="txt__task__btn__txt">Смотреть работу</p>
-              </a>
-            </div>
-          </div>
-          <!-- 6 -->
-          <div class="cases__cards_card">
-            <div class="cases__cards_card_img img">
-              <img src="./img/Maskgroup.png" alt="" class="img__photo" />
-              <img
-                src="./img/Maskgroup_mob.png"
-                alt=""
-                class="img__photo_mob"
-              />
-              <div class="cases__cards_card_img_txt">
-                <img src="./img/logo2.png" alt="" />
-                <p class="img__title">Внедрение BIM на предприятии</p>
-              </div>
-            </div>
-
-            <div class="cases__cards_card_txt txt">
-              <p class="txt__title">Внедрение BIM технологии в ООО «Аверс»</p>
-
-              <p class="txt__name">Заказчик:</p>
-              <p class="txt__location">ООО «Аверс», г. Магнитогорск</p>
-              <p class="txt__task">Задача:</p>
-              <p class="txt__task__sublite">
-                Переход компании на BIM технологию. Построение информационных
-                моделей и выпуск проектной и рабочей документации в Revit на
-                этапе пилотного проекта.
-              </p>
-
-              <a href="#!" class="txt__task__btn">
-                <img src="./img/btn.png" alt="" class="txt__task__btn__photo" />
-                <!-- <a href="#!" class="txt__task__button">
-                                <img src="./img/btn.png" alt="">
-                            </a> -->
-                <p class="txt__task__btn__txt">Смотреть работу</p>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <a href="#!" class="show__more"> Показать ещё </a>
-      </section>
-
-      <section class="number">
-        <h4 class="number__title">hh-soft в цифрах</h4>
-
-        <div class="number__cards">
-          <div class="number__cards_card_one">
-            <p class="number__cards_cash">10</p>
-            <p class="number__cards_title">
-              лет - средний опыт работы наших BIM-менеджеров
-            </p>
-          </div>
-
-          <div class="number__cards_card_one">
-            <p class="number__cards_cash">150</p>
-            <p class="number__cards_title">
-              лет - средний опыт работы наших BIM-менеджеров
-            </p>
-          </div>
-
-          <div class="number__cards_card_one">
-            <div class="number__cards_card_block">
-              <p class="number__cards_cash">90</p>
-              <img
-                src="./img/%.png"
-                alt=""
-                class="number__cards_cash_prosecnt"
-              />
-            </div>
-            <p class="number__cards_title">
-              лет - средний опыт работы наших BIM-менеджеров
-            </p>
-          </div>
-
-          <div class="number__cards_card_one">
-            <p class="number__cards_cash">10</p>
-            <p class="number__cards_title">
-              лет - средний опыт работы наших BIM-менеджеров
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="play">
-        <h5 class="play__title">
-          Посмотрите наши бесплатные уроки по bim на youtube
-        </h5>
-
-        <div class="play__cards">
-          <!-- 1 -->
-          <div class="play__cards_card">
-            <img src="./img/video.png" alt="" class="play__cards__photo" />
-            <div class="play__cards_card_txt txt">
-              <p class="txt__play_title">Ограждение из элементов в Revit</p>
-
-              <a href="#!" class="txt__play_btn"> Смотреть урок </a>
-            </div>
-          </div>
-          <!-- 2 -->
-          <div class="play__cards_card">
-            <img src="./img/video.png" alt="" class="play__cards__photo" />
-            <div class="play__cards_card_txt txt">
-              <p class="txt__play_title">Ограждение из элементов в Revit</p>
-
-              <a href="#!" class="txt__play_btn"> Смотреть урок </a>
-            </div>
-          </div>
-          <!-- 3 -->
-          <div class="play__cards_card">
-            <img src="./img/video.png" alt="" class="play__cards__photo" />
-            <div class="play__cards_card_txt txt">
-              <p class="txt__play_title">Ограждение из элементов в Revit</p>
-
-              <a href="#!" class="txt__play_btn"> Смотреть урок </a>
-            </div>
-          </div>
-          <!-- 4 -->
-          <div class="play__cards_card">
-            <img src="./img/video.png" alt="" class="play__cards__photo" />
-            <div class="play__cards_card_txt txt">
-              <p class="txt__play_title">Ограждение из элементов в Revit</p>
-
-              <a href="#!" class="txt__play_btn"> Смотреть урок </a>
-            </div>
-          </div>
-        </div>
-
-        <a href="#!" class="play__btn"> Узнать больше про обучение </a>
-      </section>
-
-      <section class="project">
-        <h5 class="project__title">Обсудить проект</h5>
-        <div class="project__cards">
-          <div class="project__left__cards">
-            <form class="project__left__cards_text">
-              <input type="text" placeholder="Краткое описание задачи" />
-            </form>
-            <div class="project__left__cards_name">
-              <form class="name">
-                <input type="text" placeholder="Ваше имя" />
-                <input type="text" placeholder="Электронная почта" />
-                <input type="text" placeholder="Телефон" />
-                <input type="text" placeholder="Адрес сайта (?)" />
-              </form>
-
-              <div class="project__left__cards_name_mb">
-                <a href="#!" class="cards_right_btn"> Обсудить проект </a>
-                <p class="cards_right_konf">
-                  Нажимая на кнопку, вы соглашаетесь с Политикой
-                  конфиденциальности
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="project__right__cards cards_right">
-            <!-- photo -->
-            <div class="cards_right__photo">
-              <img src="./img/photo.png" alt="" />
-              <div class="cards_right__photo_txt">
-                <p class="cards_right__photo_txt_name">Александр Кульгинский</p>
-                <p class="cards_right__photo_txt_info">Управляющий партнер</p>
-              </div>
-            </div>
-            <!-- number -->
-            <a href="" class="cards_right__mail"> admin@hh-soft.ru </a>
-
-            <a href="" class="cards_right__mail"> +7 (982) 623 26 17 </a>
-
-            <p class="cards_right_info">Ответим в течение двух рабочих дней</p>
-            <div class="cards_right_btn_main">
-              <a href="#!" class="cards_right_btn"> Обсудить проект </a>
-
-              <p class="cards_right_konf">
-                Нажимая на кнопку, вы соглашаетесь с Политикой
-                конфиденциальности
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
     </main>
 
+
     <footer class="footer">
-      <nav class="footer__nav container">
-        <a href="" class="logo__footer">
-          <img src="./img/logo__footer.png" alt="" />
-        </a>
-        <div class="footer__telephone">
-          <p class="footer__telephone_txt">Телефон</p>
-          <a href="#!" class="footer__telephone_number"> +7 (982) 623 26 17 </a>
-        </div>
-        <div class="footer__telephone">
-          <p class="footer__telephone_txt">E-mail:</p>
-          <a href="#!" class="footer__telephone_number"> admin@hh-soft.ru </a>
-        </div>
+        <nav class="footer__nav container">
+            <a href="./index.html" class="logo__footer">
+                <img src="./img/logo__footer.png" alt="">
+            </a>
+            <div class="footer__telephone">
+                <p class="footer__telephone_txt">
+                    Телефон
+                </p>
+                <a href="#!" class="footer__telephone_number">
+                    +7 (982) 623 26 17
+                </a>
+            </div>
+            <div class="footer__telephone">
+                <p class="footer__telephone_txt">
+                    E-mail:
+                </p>
+                <a href="#!" class="footer__telephone_number">
+                    admin@hh-soft.ru
+                </a>
+            </div>
 
-        <div class="header__content">
-          <div class="img__header__content">
-            <a href="https://vk.com/pakhommmm"
-              ><img src="./img/vk.png" alt="" class="vk"
-            /></a>
-            <a href="https://www.youtube.com/@PROWEBuz"
-              ><img src="./img/yt.png" alt="" class="yt"
-            /></a>
-            <a href="https://t.me/mamkeprivet_uwu"
-              ><img src="./img/tg.png" alt="" class="tg"
-            /></a>
-            <!-- <img src="./img/vk.png" alt="" class="vk">
+            <div class="header__content">
+                <div class="img__header__content">
+                    <img src="./img/vk.png" alt="" class="vk">
                     <img src="./img/yt.png" alt="" class="yt">
-                    <img src="./img/tg.png" alt="" class="tg"> -->
-          </div>
-        </div>
+                    <img src="./img/tg.png" alt="" class="tg">
+                </div>
+            </div>
 
-        <ul class="foter__link">
-          <li class="footer__link_list">
-            <a href="./bim_content.html">BIM-контент</a>
-          </li>
-          <li class="footer__link_list">
-            <a href="./autbm.html">Обучение</a>
-          </li>
-          <li class="footer__link_list">
-            <a href="./training.html">Сопровождение BIM проектов</a>
-          </li>
-          <li class="footer__link_list">
-            <a href="./contacts.html">Контакты</a>
-          </li>
-        </ul>
-      </nav>
+            <ul class="foter__link">
+                <li class="footer__link_list">
+                    <a href="./bim_content.html">BIM-контент</a>
+                </li>
+                <li class="footer__link_list">
+                    <a href="./autbm.html">Обучение</a>
+                </li>
+                <li class="footer__link_list">
+                    <a href="./training.html">Сопровождение BIM проектов</a>
+                </li>
+                <li class="footer__link_list">
+                    <a href="./contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
     </footer>
 
-
     <script src="./script.js"></script>
-  </body>
+</body>
 </html>
